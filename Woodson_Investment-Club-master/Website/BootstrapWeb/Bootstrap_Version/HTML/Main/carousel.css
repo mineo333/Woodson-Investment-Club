@@ -11,7 +11,7 @@ body {
 }
 
 li.navbar-wrapper {
-    color: black;
+    color: #00BFFF;
 }
 
 
@@ -19,10 +19,15 @@ li.navbar-wrapper {
 -------------------------------------------------- */
 
 
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
+/*
+.rbgwhitelink {
+    color: #FFFFFF;
+}
 
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+/*
 div.navbar-wrapper {
-    color: #000000
+    color: #00BFFF;
 }
 
 .navbar-wrapper {
@@ -31,31 +36,125 @@ div.navbar-wrapper {
     right: 0;
     left: 0;
     z-index: 1;
-    background-color: #00cc00;
-    color: #000000;
+    background-color: #D4AF37;
+    color: #00BFFF;
 }
 
 
 /* Flip around the padding for proper display in narrow viewports */
-
+/*
 .navbar-wrapper>.container {
     padding-right: 0;
     padding-left: 0;
-    background-color: #00cc00;
-    color: #000000;
+    background-color: #D4AF37;
+    color: #00BFFF;
 }
-
+ul.navbar-nav{
+    color:#00BFFF ;
+}
 .navbar-wrapper .navbar {
     padding-right: 0px;
     padding-left: 0px;
-    background-color: #00cc00;
-    color: #000000;
+    background-color: #D4AF37;
+    color: #00BFFF;
 }
 
 .navbar-wrapper .navbar .container {
     width: auto;
-    background-color: #00cc00;
+    background-color: #D4AF37;
+    color: #00BFFF;
+}
+  .navbar-default .navbar-nav > li > a {
+   color: #00BFFF; /*Change active text color here*/
+    /*}
+    /*
+     .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: #262626;
+   text-decoration: none;
+  background-color: #66CCFF;  /*change color of links in drop down here*/
+ 
+  /*}
+  /*
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #00BFFF; /*Change rollover cell color here*/
+  /*}
+#rbgnavbar a:hover, a, li, .dropdown-menu li:hover {
     color: #000000;
+}
+
+.dropdown-menu li:hover {
+    background-color: #F2EDE4;
+    color: #000000;
+}
+
+/* Main dropdown menu items change cover when selected/clicked */
+.dropdown-toggle:active, .open .dropdown-toggle, .dropdown:hover {
+    background-color: #196143 !important;
+}
+
+
+.dropdown-menu li, .dropdown-menu a {
+    text-align: center;
+    color: #000000;
+}
+
+.dropdown {
+    font-size: 10px;
+    padding: 0;
+    font-weight: bold;
+}
+
+#rbgnavbar {
+    max-width: 1600px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#D4AF37;
+}
+
+
+.rbgwhitelink {
+    color: #FFFFFF;
+}
+
+.dropdown ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* Border thickness and color between dropdown menu li, padding */
+.dropdown-menu li {
+    border-top: 2px double #D3D3D3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Background color of li in navbar when hovered over */
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a, .dropdown-menu li:hover {
+    background-color: #F2EDE4;
+}
+
+/* Makes dropdown-menu li links bold*/
+.dropdown-menu li > a, .dropdown-menu li > a:visited {
+    font-weight: bold;
+}
+div.typespace{
+    /*background-color: #A0522D;*/
+    color: #ffffff;
+    margin: 0px 225px 0px 225px;
+    height: 625px;
+}
+#grad1 {
+    height: 625px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#A0522D, #800000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#A0522D, #800000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#A0522D, #800000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#A0522D, #800000); /* Standard syntax (must be last) */
 }
 
 
@@ -69,6 +168,7 @@ div.navbar-wrapper {
     height: 500px;
     margin-bottom: 60px;
 }
+
 
 
 /* Since positioning the image, we need to help out the caption */
